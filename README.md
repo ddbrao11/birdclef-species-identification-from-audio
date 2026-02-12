@@ -3,6 +3,7 @@ Species identification from audio, focused on birds, amphibians, mammals and ins
 
 ## Research Notes
 This repository represents ongoing independent research exploration.
+
 Detailed methodology: [docs/methodology.md](docs/methodology.md)
 
 ## Research Overview
