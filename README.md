@@ -1,4 +1,4 @@
-# birdclef-species-identification-from-audio
+# Bioacoustic Species Identification for Biodiversity Monitoring
 Species identification from audio, focused on birds, amphibians, mammals and insects. Supports biodiversity monitoring through machine learning.
 
 ## Research Notes
@@ -28,6 +28,16 @@ evaluated on publicly available ecological datasets.
 ## Limitations
 Environmental noise and class imbalance impact performance.
 Geographic generalization remains challenging.
+
+## Data Pipeline (High Level)
+- Load audio → resample/normalize
+- Convert to time-frequency representation (e.g., mel-spectrogram)
+- Apply augmentations (noise, time/freq masking)
+- Train classifier and evaluate on held-out splits
+
+## Generalization Considerations
+Performance may degrade across new habitats, recording devices, or seasonal soundscapes. Domain shift is a core limitation and a key future research direction.
+
 
 
 
