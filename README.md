@@ -48,8 +48,8 @@ Below is a representative spectrogram visualization derived from a public bioaco
 
 Domain shift is a key challenge: models trained on one geography, season, or recorder type may degrade when deployed in different habitats or acoustic conditions.
 
-![Sample spectrogram (TODO: add image)](assets/sample_spectrogram.png)
-*Figure: Representative spectrogram visualization (to be added).*
+![Sample spectrogram](assets/sample_spectrogram.png)
+*Figure: Representative spectrogram visualization.
 
 Note: This repository does not redistribute datasets. It includes only derived visualizations for explanatory purposes.
 
